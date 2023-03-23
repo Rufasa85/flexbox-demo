@@ -1,3 +1,4 @@
 body {
-    background: salmon;
+    height: 100vh;
+    background: linear-gradient(salmon, cornflowerblue);
 }
