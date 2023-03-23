@@ -8,18 +8,22 @@ main {
     border:1px solid black;
     display: flex;
     flex-wrap:wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 section {
     background:chartreuse;
     border:1px solid deeppink;
     flex-basis: 200px;
-    flex-grow:1;
-    flex-shrink: 0;
+    /* flex-grow:1;
+    flex-shrink: 0; */
 }
 
 #special {
     background-color: cornflowerblue;
-    flex-grow:20;
+    /* flex-grow:20; */
+    order:1
     /* flex-shrink:5; */
 }
